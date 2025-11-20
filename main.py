@@ -33,7 +33,3 @@ def solve_math(problem: Problem):
             full_output += obj.get("response","")
 
     return {"answer": full_output}
-
-    # Extract only the generated text
-    #result = response.json().get("response","")
-    #return {"solution": result}
