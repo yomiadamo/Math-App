@@ -19,7 +19,7 @@ class Problem(BaseModel):
 @app.post("/solve")
 def solve_math(problem: Problem):
     payload = {
-        "model": "tinyllama",
+        "model": "hf.co/allenai/OLMo-2-0425-1B-Instruct-GGUF:Q4_K_M",
         "prompt": f"Solve this math problem step-by-step:\n{problem.question}"
     }
 
