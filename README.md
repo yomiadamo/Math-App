@@ -9,9 +9,13 @@ Hello, this was a test to see how to call LLMs in the backend, it is a very simp
 curl -fsSL https://ollama.com/install.sh | sh
 ~~~
 
-2. Pull OLMo 2 1B Model
+2. Pull OLMo 2 1B Model or OLMo 3 7B
 ~~~bash
 ollama pull hf.co/allenai/OLMo-2-0425-1B-Instruct-GGUF:Q4_K_M
+~~~
+
+~~~bash
+ollama pull hf.co/unsloth/Olmo-3-7B-Instruct-GGUF:Q4_K_M
 ~~~
 
 3. Clone the directory
